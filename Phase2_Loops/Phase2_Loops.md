@@ -124,6 +124,8 @@ Print first n terms of a geometric progression (a, r).
 > These problems train **nested loop thinking**  
 > and are **mandatory for logic growth**.
 *(More patterns can be added from the pattern PDF)*
+pen question on this drive 
+https://drive.google.com/file/d/1hNQyIcGjoftFvCVsgn7g2o53n-ojkelT/view
 
 ---
 
