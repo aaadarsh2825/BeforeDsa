@@ -1,0 +1,25 @@
+package Phase4_Arrays.Level1_Fundamentals;
+
+import java.util.Scanner;
+
+public class Q08_IndexOfMax {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int[] arr = new int[n];
+        int max = Integer.MIN_VALUE;
+        int maxIndex = 0;
+        
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+            if (arr[i] > max) {
+                max = arr[i];
+                maxIndex = i;
+            }
+        }
+        System.out.println(maxIndex);
+    }
+}
